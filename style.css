@@ -29,6 +29,13 @@
     text-decoration: none;
     color: #231F20;
     font-size: 0.8rem;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.navbar>a:hover,
+.navbar>i:hover {
+    transform: translate(0, -2px);
 }
 
 .main-section {
@@ -73,12 +80,31 @@
     letter-spacing: -1px;
 }
 
+.box1 {
+    height: 150px;
+}
+
 .box2 {
     height: 50px;
 }
 
-.box1 {
-    height: 150px;
+.box1,
+.box2,
+.box3 {
+    transition: 400ms ease-in-out;
+    cursor: pointer;
+}
+
+.box1:hover {
+    transform: rotate(3deg);
+}
+
+.box2:hover {
+    transform: rotate(-3deg);
+}
+
+.box3:hover {
+    transform: rotate(3deg);
 }
 
 .box2 h1 {
@@ -322,6 +348,7 @@ footer {
     display: inline-block;
     text-align: center;
 }
+
 .footer-texts a:hover {
     text-decoration: underline;
 }
