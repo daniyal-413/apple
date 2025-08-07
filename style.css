@@ -323,45 +323,6 @@ hr {
     margin: 0px auto;
 }
 
-footer {
-    background-color: #F5F5F7;
-}
-
-.footer-texts {
-    width: 80%;
-    height: 40px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-texts p {
-    font-size: 0.75rem;
-    color: grey;
-    text-align: start;
-    display: inline-block;
-}
-
-.footer-texts a {
-    color: grey;
-    margin: 0 5px;
-    font-size: 0.75rem;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-}
-
-.footer-texts a:hover {
-    text-decoration: underline;
-}
-
-.footer-texts h3 {
-    font-size: 0.75rem;
-    color: grey;
-    display: inline-block;
-    text-align: end;
-}
-
 .image-section {
     width: 100%;
     height: 100%;
@@ -377,13 +338,90 @@ footer {
     background-size: cover;
     background-position: center;
 }
-.running-image-section{
+
+.running-image-section {
     width: 100%;
     height: 100%;
     margin-bottom: 10px;
 }
-.running-image-section>img{
+
+.running-image-section>img {
     width: 450px;
     height: 230px;
     object-fit: cover;
+}
+
+.main-section-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0px 25px;
+    width: 80%;
+}
+
+.link-box {
+    padding: 25px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-box>a {
+    margin: 5px 0px;
+    color: grey;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.link-box>a:hover {
+    text-decoration: underline;
+}
+
+.link-box>p {
+    margin: 10px 0px;
+    color: #231F20;
+    font-size: 0.85rem;
+}
+
+footer {
+    background-color: #F5F5F7;
+}
+
+.footer-texts {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-texts p {
+    font-size: 0.75rem;
+    color: grey;
+    text-align: start;
+    display: inline-block;
+}
+
+.footer-texts a {
+    color: grey;
+    margin: 0px 5px;
+    font-size: 0.75rem;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-texts a:hover {
+    text-decoration: underline;
+}
+
+.footer-texts h3 {
+    font-size: 0.75rem;
+    color: grey;
+    display: inline-block;
+    text-align: end;
 }
