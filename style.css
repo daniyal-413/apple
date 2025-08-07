@@ -353,20 +353,22 @@ hr {
 
 .main-section-6 {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 0px 25px;
     width: 80%;
+    padding-bottom: 25px;
 }
 
 .link-box {
-    padding: 25px;
+    padding: 5px;
     height: auto;
     display: flex;
     flex-direction: column;
+    /* background-color: green; */
 }
 
 .link-box>a {
@@ -383,7 +385,7 @@ hr {
 .link-box>p {
     margin: 10px 0px;
     color: #231F20;
-    font-size: 0.85rem;
+    font-size: 0.80rem;
 }
 
 footer {
